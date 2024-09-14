@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjusted padding */
+  background-color: #343a40; /* Dark background color */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow for a slimmer look */
+}
+
+.logo a {
+  font-size: 1.5em; /* Reduced font size */
+  font-weight: bold;
+  color: #ffffff; /* Light color for the logo */
+  text-decoration: none;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  position: relative;
+  margin-right: 20px; /* Add margin to the right of the search bar */
+}
+
+.search-input {
+  padding: 8px 35px 8px 8px; /* Adjusted padding to fit reduced size */
+  font-size: 0.9em; /* Reduced font size */
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  outline: none;
+  background-color: #ffffff; /* Light background for input */
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #0056b3;
+}
+
+.search-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px; /* Reduced padding */
+}
+
+.search-button svg {
+  width: 20px; /* Reduced icon size */
+  height: 20px; /* Reduced icon size */
+  color: #007bff;
+}
+
+.search-button:hover svg {
+  color: #0056b3;
+}
+
+.contact-button {
+  padding: 8px 16px; /* Reduced padding */
+  font-size: 0.9em; /* Reduced font size */
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}

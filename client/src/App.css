@@ -1,0 +1,57 @@
+
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+.main-content {
+  display: flex;
+}
+
+
+
+
+
+.sidebar {
+  width: 200px; 
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.content {
+  flex-grow: 1;
+  
+}
+
+
+
+.active-link {
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

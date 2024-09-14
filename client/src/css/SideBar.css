@@ -1,0 +1,33 @@
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 100vh;
+  /* position: fixed; */
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sidebar a.active-link {
+  background-color: #333;
+  color: #fff;
+}
+
+.categories {
+  margin-top: 20px;
+}
+
+.category {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.category:hover {
+  background-color: #ddd;
+}
